@@ -13,7 +13,7 @@ public class Kaugummi extends Suessigkeit {
     @Override
     public String auspacken() {
         // TODO Auto-generated method stub
-        return null;
+        return getMarke() + getGeschmack();
     }
 
     public void setGeschmack(String geschmack) {

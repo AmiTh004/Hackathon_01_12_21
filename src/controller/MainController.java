@@ -6,9 +6,10 @@ import java.util.ArrayList;
 
 public class MainController {
 
-    public void demoData(){
+    ArrayList<Suessigkeit> suessigkeiten = new ArrayList<Suessigkeit>();
 
-        ArrayList<Suessigkeit> suessigkeiten = new ArrayList<Suessigkeit>();
+    public MainController(){
+
         
         Bonbon b = new Bonbon("Nestle", 23, "süß");
         suessigkeiten.add(b);

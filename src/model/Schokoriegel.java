@@ -2,7 +2,7 @@ package model;
 
 public class Schokoriegel extends Suessigkeit {
 
-    public Schokoriegel(String marke, int gewicht) {
+    public Schokoriegel(String marke, double gewicht) {
         super(marke, gewicht);
         //TODO Auto-generated constructor stub
     }

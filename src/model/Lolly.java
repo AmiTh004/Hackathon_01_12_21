@@ -10,7 +10,7 @@ public class Lolly extends Suessigkeit {
     @Override
     public String auspacken() {
         // TODO Auto-generated method stub
-        return null;
+        return getMarke();
     }
     
 }

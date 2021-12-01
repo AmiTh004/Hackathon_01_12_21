@@ -3,9 +3,9 @@ package model;
 public abstract class Suessigkeit {
     
     String _marke;
-    int _gewicht;
+    double _gewicht;
 
-    public Suessigkeit(String marke, int gewicht){
+    public Suessigkeit(String marke, double gewicht){
         setGewicht(gewicht);
         setMarke(marke);
     }
@@ -23,10 +23,10 @@ public abstract class Suessigkeit {
         return _marke;
     }
 
-    public void setGewicht(int gewicht) {
+    public void setGewicht(double gewicht) {
         this._gewicht = gewicht;
     }
-    public int getGewicht() {
+    public double getGewicht() {
         return _gewicht;
     }
 

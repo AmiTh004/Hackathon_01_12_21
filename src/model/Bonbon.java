@@ -4,7 +4,7 @@ public class Bonbon extends Suessigkeit {
 
     String _suessSauer;
 
-    public Bonbon(String marke, int gewicht, String suessSauer) {
+    public Bonbon(String marke, double gewicht, String suessSauer) {
         super(marke, gewicht);
         setSuessSauer(suessSauer);
         //TODO Auto-generated constructor stub
@@ -12,8 +12,7 @@ public class Bonbon extends Suessigkeit {
 
     @Override
     public String auspacken() {
-        // TODO Auto-generated method stub
-        return null;
+        return getMarke() + getGewicht() + getSuessSauer();
     }
 
     public void setSuessSauer(String suessSauer) {

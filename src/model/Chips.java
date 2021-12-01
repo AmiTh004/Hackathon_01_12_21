@@ -13,7 +13,7 @@ public class Chips extends Suessigkeit {
     @Override
     public String auspacken() {
         // TODO Auto-generated method stub
-        return null;
+        return getMarke() + getSorte();
     }
 
     public void setSorte(String sorte) {
